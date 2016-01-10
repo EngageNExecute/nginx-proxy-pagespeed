@@ -1,4 +1,4 @@
-FROM combro2k/debian-debootstrap:8
+FROM buildpack-deps:jessie
 
 MAINTAINER Martijn van Maurik <docker@vmaurik.nl>
 
