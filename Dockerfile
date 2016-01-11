@@ -1,6 +1,8 @@
 FROM buildpack-deps:jessie
 
-MAINTAINER Martijn van Maurik <docker@vmaurik.nl>
+MAINTAINER EngageNExecute <code@engagenexecute.com>
+
+# https://github.com/combro2k/nginx-proxy-pagespeed Martijn van Maurik <docker@vmaurik.nl>
 
 # Environment variables
 ENV DOCKER_HOST=unix:///tmp/docker.sock \
